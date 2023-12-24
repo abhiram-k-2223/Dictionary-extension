@@ -1,0 +1,14 @@
+/* styles.css */
+body {
+    min-width: 300px;
+  }
+  
+  #page1 {
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffffff, #87CEEB);
+  }
+  
+  #page2 {
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffffff, #87CEEB);
+  }

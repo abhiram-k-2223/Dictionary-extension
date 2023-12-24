@@ -1,0 +1,26 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="popup.js"></script>
+</head>
+
+<body>
+  <div id="page1">
+    <h2 style="color: #113442; font-family: 'Times New Roman', Times, serif;">Welcome!</h2>
+    <label for="word" style="color: #113442; font-family: 'Times New Roman', Times, serif;">Enter a word:</label>
+    <input type="text" id="word" />
+    <button id="fetchButton" style="color: black; font-family: 'Times New Roman', Times, serif;">Get Definition</button>
+  </div>
+
+  <div id="page2" style="display: none;">
+    <h2 style="color: #113442; font-family: 'Times New Roman', Times, serif;">Definition:</h2>
+    <div id="definition"></div>
+    <ul></ul>
+  </div>
+  <script src="popup.js" defer></script>
+</body>
+
+</html>

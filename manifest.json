@@ -1,0 +1,18 @@
+
+{
+    "manifest_version": 2,
+    "name": "Dictionary Extension",
+    "version": "1.0",
+    "description": "An English dictionary extension",
+    "permissions": ["storage", "activeTab"],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "logo128.png"
+      }
+    },
+    "icons": {
+      "128": "logo128.png"
+    }
+  }
+  
