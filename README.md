@@ -1,2 +1,2 @@
 # Dictionary-extension
-this is a dictionary extension supported only for chrome.
+this is a dictionary extension supported for chrome.
